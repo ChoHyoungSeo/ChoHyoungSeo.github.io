@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ChoHyoungSeo</title>
-    <!-- <link rel="stylesheet" href="custom.css"> -->
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -16,31 +16,64 @@
     <header>
         <h3 class="text-center bg-primary text-white py-2 mb-0">my profile</h3>
     </header>
-    <section class="bg-light border-bottom py-3">
-        <div class="container">
-            <div class="d-inlineblock profile-img">
-                <img src="lion.png" alt="picture" height="220px" class="rounded-circle">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-1">
             </div>
-
-            <article class="d-inline-block align-middle ml-3 my-3 profile-text">
-                <h1 class="font-weight-bold profile-h1">Likelion</h1>
-                <h2 class="font-weight-normal">Myongji University</h2>
-                <h3 class="font-weight-light">자기소개 페이지 만들기</h3>
-                <span class="badge badge-primary">#likelion</span>
-                <span class="badge badge-secondary">#아기사자</span>
-                <span class="badge badge-success">#명지대</span>
-                <span class="badge badge-danger">#수료중</span>
-                <span class="badge badge-warning">#Hack your life!</span>
+            <div class = "col-5">
+                <section class="bg-light border-bottom py-3">
+                    <div class="container">
+                        <div class="d-inlineblock profile-img">
+                            <img src="lion.png" alt="picture" height="220px" class="rounded-circle">
+                        </div>
+                        <article class="d-inline-block align-middle ml-3 my-3 profile-text">
+                        <h1 class="font-weight-bold profile-h1">Likelion</h1>
+                        <h2 class="font-weight-normal">Myongji University</h2>
+                        <h3 class="font-weight-light">자기소개 페이지 만들기</h3>
+                        <span class="badge badge-primary">#likelion</span>
+                        <span class="badge badge-secondary">#아기사자</span>
+                        <span class="badge badge-success">#명지대</span>
+                        <span class="badge badge-danger">#수료중</span>
+                        <span class="badge badge-warning">#Hack your life!</span>
+                        <br/>
+                        </article>             
+                    </div>
+                </section>
+            </div>
+            <div class = "col-5">
                 <br/>
-                <span>
-                    안녕하세요 저는 명지대학교 융합소프트웨어학부 데이터 테크놀로지를 전공하고있는 조형서라고 합니다.
-                    제가 작성했던 IT 서비스는 제 소개 및 앞으로의 포트폴리오를 만들어보는 것입니다.
-                    열심히 하겠습니다. 감사합니다.
-                </span>
-            </article>             
+                <br/>
+                <span id="summary"><h1>프로필요약</h1></span>
+                <br/>
+                <ul class="uolist">
+                    <h3><li>이름: 조형서</li>
+                    <li>생년월일: 96.12.16</li>
+                    <li>학교: 명지대학교</li>
+                    <li>전공: 융합소프트웨어학부 데이터테크놀로지전공</li>
+                    <li>학년: 3학년</li></h3>
+                </ul>
+            </div>
+            <div class = "col-1">
+            </div>
         </div>
-    </section>
-    
+    </div>
+    <div class ="col align-self-center">
+        <div class="container">
+            <div class="col-lg">
+        
+            </div>
+            <div class="col-xl" id="mom">
+                <h4>
+                안녕하세요 저는 명지대학교 융합소프트웨어학부 데이터 테크놀로지를 전공하고있는 조형서라고 합니다.
+                제가 작성했던 IT 서비스는 제 소개 및 앞으로의 포트폴리오를 만들어보는 것입니다.
+                열심히 하겠습니다. 감사합니다.
+                </h4>
+            </div>
+            <div class="col-lg">
+
+            </div>
+        </div>
+    </div>
     <blockquote class="text-center bg-primary text-white py-2 mb-0">
         <p class="mb-0">contact me!</p>
         <footer class="text-white text-center">michael.hsjo@likelion.org</footer>
